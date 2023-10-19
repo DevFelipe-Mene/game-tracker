@@ -1,6 +1,6 @@
 <template>
 <div>
-  <select id="order">
+  <select @change="games" id="order">
     <option value="% de desconto">% de desconto</option>
     <option value="Maior">Maior preço</option>
     <option value="Menor">Menor preço</option>
@@ -11,6 +11,8 @@
 
 <script>
 export default {
+
+
   name: "Ordenation",
 };
 </script>
